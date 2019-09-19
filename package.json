@@ -1,6 +1,6 @@
 {
   "name": "blocjs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Building block for a functional Reactjs UI built with styled-system",
   "repository": "https://github.com/blocjs/blocjs",
   "homepage": "https://github.com/blocjs/blocjs",
