@@ -1,7 +1,7 @@
-import styled from 'styled-components'
-import { color, borders, borderColor, borderRadius, opacity, boxShadow } from 'styled-system'
+import styled from 'styled-components';
+import { color, borders, borderColor, borderRadius, opacity, boxShadow } from 'styled-system';
 
-import { Box } from './box'
+import { Box } from './box';
 
 
 export const Bordered = styled(Box) (
@@ -20,7 +20,7 @@ export const Bordered = styled(Box) (
   // effects
   opacity,
   boxShadow
-)
+);
 
 
 Box.propTypes = {
@@ -30,7 +30,7 @@ Box.propTypes = {
   ...borderRadius.propTypes,
   ...opacity.propTypes,
   ...boxShadow.propTypes
-}
+};
 
 
-export default Bordered
+export default Bordered;

@@ -1,8 +1,8 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {
   alignSelf, flex, flexBasis, fontSize,
-  justifySelf, order, space, width
-} from 'styled-system'
+  order, space, width
+} from 'styled-system';
 
 
 export const Box = styled('div') (
@@ -20,7 +20,7 @@ export const Box = styled('div') (
   order,
   flex,
   flexBasis
-)
+);
 
 
 Box.propTypes = {
@@ -31,7 +31,7 @@ Box.propTypes = {
   ...order.propTypes,
   ...flex.propTypes,
   ...flexBasis.propTypes
-}
+};
 
 
-export default Box
+export default Box;

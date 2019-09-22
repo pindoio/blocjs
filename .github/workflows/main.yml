@@ -1,4 +1,4 @@
-name: Blocjs - Publish
+name: Blocjs
 
 on:
   push:
