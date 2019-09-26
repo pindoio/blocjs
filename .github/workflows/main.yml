@@ -18,8 +18,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-          registry-url: 'https://registry.npmjs.org'
+          registry-url: 'https://npm.pkg.github.com'
       - run: yarn install
       - run: yarn publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
