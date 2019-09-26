@@ -2,8 +2,8 @@
   "name": "@pindo-io/blocjs",
   "version": "0.0.1",
   "description": "Building block for a functional Reactjs UI built with styled-system",
-  "repository": "https://github.com/blocjs/blocjs",
-  "homepage": "https://github.com/blocjs/blocjs",
+  "repository": "https://github.com/pindo-io/blocjs",
+  "homepage": "https://github.com/pindo-io/blocjs",
   "author": "Eugene Rwagasore",
   "license": "BSD-2-Clause",
   "keywords": [
