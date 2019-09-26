@@ -27,9 +27,6 @@
   "peerDependencies": {
     "styled-components": "^4.3.2"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
-  },
   "scripts": {
     "prepare": "yarn cache clean",
     "test": "jest"
