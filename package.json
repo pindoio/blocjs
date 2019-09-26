@@ -1,6 +1,6 @@
 {
   "name": "@pindo-io/blocjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Building block for a functional Reactjs UI built with styled-system",
   "repository": "https://github.com/pindo-io/blocjs",
   "homepage": "https://github.com/pindo-io/blocjs",
@@ -26,9 +26,6 @@
   },
   "peerDependencies": {
     "styled-components": "^4.3.2"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
   },
   "scripts": {
     "prepare": "yarn cache clean",
