@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "react-dom": "^16.10.2",
+    "react": "^16.10.2",
+    "gatsby": "^2.15.29",
+    "@pindoio/blocjs": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "version": "0.0.1",
+  "name": "docs",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  }
+}

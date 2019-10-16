@@ -1,0 +1,20 @@
+{
+  "name": "@pindoio/blocjs",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "@styled-system/prop-types": "^5.1.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "styled-components": "^4.4.0",
+    "styled-system": "^5.1.2"
+  },
+  "devDependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "styled-components": "^4.4.0",
+    "styled-system": "^5.1.2"
+  },
+  "dependencies": {}
+}
