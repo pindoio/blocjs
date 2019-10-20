@@ -10,9 +10,11 @@
   ],
   "dependencies": {
     "@changesets/cli": "^2.0.4",
-    "lerna": "^3.17.0"
+    "lerna": "^3.17.0",
+    "test": "echo 1"
   },
   "scripts": {
-    "changeset": "yarn changeset"
+    "changeset": "yarn changeset",
+    "publish": "lerna publish from-package -y"
   }
 }
