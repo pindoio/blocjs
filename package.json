@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "@changesets/cli": "^2.1.2",
-    "lerna": "^3.17.0"
+    "lerna": "^3.18.1"
   },
   "scripts": {
     "test": "echo 1",
