@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js 12.x
         uses: actions/setup-node@v1
         with:
-          version: '12.x'
+          node-version: '12.x'
       - name: Install dependencies
         run: yarn
       - name: Run tests
@@ -30,7 +30,7 @@ jobs:
       - name: Setup Node.js 12.x
         uses: actions/setup-node@v1
         with:
-          version: '12.x'
+          node-version: '12.x'
       - name: Install dependencies
         run: yarn
       - name: Create release pull-request
@@ -48,7 +48,7 @@ jobs:
       - name: Setup Node.js 12.x
         uses: actions/setup-node@v1
         with:
-          version: '12.x'
+          node-version: '12.x'
           registry-url: https://npm.pkg.github.com/
           scope: "@pindoio"
       - name: Install dependencies
