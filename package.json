@@ -15,6 +15,6 @@
   "scripts": {
     "test": "echo 1",
     "changeset": "changeset",
-    "auto-publish": "lerna publish from-package -y"
+    "auto-publish": "lerna publish from-package -y --no-verify-access"
   }
 }
