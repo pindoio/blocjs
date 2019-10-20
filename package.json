@@ -9,12 +9,11 @@
     "docs"
   ],
   "dependencies": {
-    "@changesets/cli": "^2.0.4",
-    "lerna": "^3.17.0",
-    "test": "echo 1"
+    "@changesets/cli": "^2.1.2",
+    "lerna": "^3.17.0"
   },
   "scripts": {
-    "changeset": "yarn changeset",
-    "publish": "lerna publish from-package -y"
+    "test": "echo 1",
+    "publish": "lerna publish from-package -y --no-verify-access"
   }
 }
