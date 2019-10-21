@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- 7ad4af2: Bettering a workflow to publishing on github registry
+
+## 0.0.3
+
+### Patch Changes
+
 - 96b29a7: Structured the package as a monorepo
 
 ## 0.0.3
