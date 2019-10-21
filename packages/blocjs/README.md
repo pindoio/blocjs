@@ -1,11 +1,16 @@
-![Bloc logo](./logo.png)
+![Bloc logo](https://github.com/pindoio/blocjs/raw/master/logo.png)
 
 # Bloc
-Building blocks for a functional ReactJS UI based on Sytled System and Styled Components
+Building blocks for a functional Reactjs UI built with styled-system
 
 ## Installation
+To install the latest version without the need to remember the version number
 ```sh
-yarn add @pindoio/blocjs
+yarn add @pindoio/blocjs@next
+```
+or
+```sh
+npm install @pindoio/blocjs@next
 ```
 
 ## Box
