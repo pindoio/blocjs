@@ -1,18 +1,16 @@
 {
-  "dependencies": {
-    "react-dom": "^16.10.2",
-    "react": "^16.10.2",
-    "gatsby": "^2.15.29",
-    "@pindoio/blocjs": "*"
-  },
-  "license": "MIT",
-  "main": "index.js",
-  "version": "0.0.1",
   "name": "docs",
+  "author": "Eugene Rwagasore <rwagasore@gmail.com> (@erwagasore)",
+  "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "gatsby": "^2.15.9",
+    "gatsby-theme-document": "1.0.8",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   }
 }
