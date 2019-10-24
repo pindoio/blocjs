@@ -1,0 +1,35 @@
+{
+  "config": {
+    "title": "Docs",
+    "description": "BlocJS Documentation",
+    "menu": [],
+    "version": "0.0.1",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "home.mdx",
+      "value": {
+        "name": "Introduction",
+        "route": "/",
+        "id": "e9760a3ba4a9c7b296119b45537b0977",
+        "filepath": "home.mdx",
+        "fullpath": "/Users/er/pindo/blocjs/docs/home.mdx",
+        "link": "",
+        "slug": "home",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "this-is-the-introduction",
+            "depth": 1,
+            "value": "This is the introduction"
+          }
+        ]
+      }
+    }
+  ],
+  "props": []
+}
