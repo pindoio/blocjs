@@ -1,7 +1,7 @@
-import styled from 'styled-components'
-import { fontFamily, fontWeight, textAlign, lineHeight, letterSpacing } from 'styled-system'
+import styled from 'styled-components';
+import { fontFamily, fontWeight, textAlign, lineHeight, letterSpacing } from 'styled-system';
 
-import { Box } from './box'
+import { Box } from './box';
 
 
 const Text = styled(Box) (
@@ -10,7 +10,7 @@ const Text = styled(Box) (
   textAlign,
   lineHeight,
   letterSpacing
-)
+);
 
 
-export default Text
+export default Text;
