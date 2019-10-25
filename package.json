@@ -5,8 +5,7 @@
   "name": "blocjs-packages",
   "private": true,
   "workspaces": [
-    "packages/*",
-    "docs"
+    "packages/*"
   ],
   "dependencies": {
     "@changesets/cli": "^2.1.2",
