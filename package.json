@@ -1,12 +1,11 @@
 {
-  "version": "1.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
   "name": "blocjs-packages",
   "private": true,
   "workspaces": [
-    "packages/*",
-    "docs"
+    "packages/*"
   ],
   "dependencies": {
     "@changesets/cli": "^2.1.2",

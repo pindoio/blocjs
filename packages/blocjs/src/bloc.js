@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import propTypes, { propType } from "@styled-system/prop-types";
+import propTypes from "@styled-system/prop-types";
 import { color, background, border, shadow, compose } from "styled-system";
 
 import { Box } from "./box";
