@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.0.4
+
+### Patch Changes
+
+- 859fda2: Removed peerDependencies instead used as dependencies
+
 ## 0.0.3
 
 ### Patch Changes
