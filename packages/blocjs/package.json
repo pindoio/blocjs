@@ -3,14 +3,25 @@
   "version": "0.0.4",
   "main": "index.js",
   "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
+  "repository": "https://github.com/pindoio/blocjs",
   "license": "MIT",
   "devDependencies": {
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "@styled-system/prop-types": "^5.1.2"
   },
   "dependencies": {
     "styled-components": "^4.4.0",
     "styled-system": "^5.1.2"
+  },
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postpublish": "npm publish pkg --ignore-scripts --@pindoio:registry='https://registry.npmjs.org'"
   }
 }
