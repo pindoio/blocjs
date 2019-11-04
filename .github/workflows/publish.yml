@@ -2,13 +2,13 @@ name: Publish
 
 on:
   pull_request:
-    branches:
-      - master
+    types: [closed]
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      if: github.event.pull_request.merged == true
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
