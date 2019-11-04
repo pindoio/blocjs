@@ -1,21 +1,16 @@
 {
   "name": "@pindoio/blocjs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
   "license": "MIT",
-  "peerDependencies": {
-    "@styled-system/prop-types": "^5.1.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "styled-components": "^4.4.0",
-    "styled-system": "^5.1.2"
-  },
   "devDependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "@styled-system/prop-types": "^5.1.2"
+  },
+  "dependencies": {
     "styled-components": "^4.4.0",
     "styled-system": "^5.1.2"
-  },
-  "dependencies": {}
+  }
 }
