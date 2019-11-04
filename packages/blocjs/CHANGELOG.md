@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 1.0.0
+
+### Major Changes
+
+- 91b1dba: Added configurations to make the package public
+
 ## 0.0.4
 
 ### Patch Changes
