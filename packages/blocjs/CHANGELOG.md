@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.0.6
+
+### Patch Changes
+
+- fa1d9c5: Corrected the package to correct the issue with installation as public package
+
 ## 0.0.5
 
 ### Patch Changes

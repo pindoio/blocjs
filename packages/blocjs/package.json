@@ -1,10 +1,10 @@
 {
   "name": "@pindoio/blocjs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "index.js",
   "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
-  "repository" : {
-    "type" : "git",
+  "repository": {
+    "type": "git",
     "url": "ssh://git@github.com/pindoio/blocjs.git"
   },
   "license": "MIT",
