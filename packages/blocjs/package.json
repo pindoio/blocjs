@@ -22,6 +22,6 @@
     "access": "public"
   },
   "scripts": {
-    "postpublish": "npm publish pkg --ignore-scripts --@pindoio:registry='https://registry.npmjs.org'"
+    "postpublish": "npm publish @pindoio/blocjs --ignore-scripts --@pindoio:registry='https://registry.npmjs.org'"
   }
 }
