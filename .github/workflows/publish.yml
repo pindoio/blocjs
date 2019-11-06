@@ -19,4 +19,4 @@ jobs:
       - name: Publishing package to github registry
         run: yarn auto-publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.PERSONAL_ACCESS_TOKEN}}
