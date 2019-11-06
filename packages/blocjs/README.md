@@ -1,7 +1,7 @@
 ![Bloc logo](https://github.com/pindoio/blocjs/raw/master/logo.png)
 
-# Bloc
-Building blocks for a functional Reactjs UI built with styled-system
+# BlocJS
+BlocJS is a minimal structural set of components built for ReactJS (with Styled-components & Styled-system)
 
 ## Installation
 To install the latest version without the need to remember the version number
