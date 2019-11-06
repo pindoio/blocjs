@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.0.7
+
+### Patch Changes
+
+- 4fc5614: Enable the package to be accessed publically
+
 ## 0.0.6
 
 ### Patch Changes
