@@ -1,5 +1,29 @@
 # @pindoio/blocjs
 
+## 0.0.6
+
+### Patch Changes
+
+- fa1d9c5: Corrected the package to correct the issue with installation as public package
+
+## 0.0.5
+
+### Patch Changes
+
+- 13e6400: Added configurations to make the package public
+
+## 0.0.5
+
+### Patch Changes
+
+- eb3a89f: Added configurations which will make the package public
+
+## 1.0.0
+
+### Major Changes
+
+- 91b1dba: Added configurations to make the package public
+
 ## 0.0.4
 
 ### Patch Changes
