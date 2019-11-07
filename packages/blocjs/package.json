@@ -16,13 +16,15 @@
   },
   "dependencies": {
     "styled-components": "^4.4.0",
-    "styled-system": "^5.1.2"
+    "styled-system": "^5.1.2",
+    "@styled-system/prop-types": "^5.1.2"
   },
   "peerDependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }
