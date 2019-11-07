@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.0.11
+
+### Patch Changes
+
+- 047b8b5: Added required dependency from dev dependencies
+
 ## 0.0.10
 
 ### Patch Changes
