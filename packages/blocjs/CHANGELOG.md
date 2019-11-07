@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.0.8
+
+### Patch Changes
+
+- 86f056d: Removing private element in monorepo configuration
+
 ## 0.0.7
 
 ### Patch Changes
