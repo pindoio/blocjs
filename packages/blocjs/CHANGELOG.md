@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.0.10
+
+### Patch Changes
+
+- e92f3fa: Updated the config to make the package public
+
 ## 0.0.9
 
 ### Patch Changes
