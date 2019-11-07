@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.0.9
+
+### Patch Changes
+
+- fde2a63: Updated package configuration to emphasize the package as public
+
 ## 0.0.8
 
 ### Patch Changes
