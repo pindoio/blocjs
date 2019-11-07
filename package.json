@@ -3,6 +3,7 @@
   "license": "MIT",
   "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
   "name": "blocjs-packages",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
