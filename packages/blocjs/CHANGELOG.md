@@ -1,5 +1,35 @@
 # @pindoio/blocjs
 
+## 0.0.11
+
+### Patch Changes
+
+- 047b8b5: Added required dependency from dev dependencies
+
+## 0.0.10
+
+### Patch Changes
+
+- e92f3fa: Updated the config to make the package public
+
+## 0.0.9
+
+### Patch Changes
+
+- fde2a63: Updated package configuration to emphasize the package as public
+
+## 0.0.8
+
+### Patch Changes
+
+- 86f056d: Removing private element in monorepo configuration
+
+## 0.0.7
+
+### Patch Changes
+
+- 4fc5614: Enable the package to be accessed publically
+
 ## 0.0.6
 
 ### Patch Changes

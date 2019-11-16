@@ -1,11 +1,12 @@
 {
   "name": "@pindoio/blocjs",
-  "version": "0.0.6",
+  "version": "0.0.11",
+  "description": "Building blocks for a functional Reactjs UI built with styled-system",
   "main": "index.js",
   "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/pindoio/blocjs.git"
+    "url": "git+https://github.com/pindoio/blocjs.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -15,13 +16,15 @@
   },
   "dependencies": {
     "styled-components": "^4.4.0",
-    "styled-system": "^5.1.2"
+    "styled-system": "^5.1.2",
+    "@styled-system/prop-types": "^5.1.2"
   },
   "peerDependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }
