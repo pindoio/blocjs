@@ -1,5 +1,6 @@
 import Box from "./src/box";
+import Hide from "./src/hide";
 import Flex from "./src/flex";
 import Bloc from "./src/bloc";
 
-export { Box, Flex, Bloc};
+export { Box, Hide, Flex, Bloc };

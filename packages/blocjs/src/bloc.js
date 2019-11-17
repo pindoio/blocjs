@@ -4,7 +4,7 @@ import { color, background, border, shadow, compose } from "styled-system";
 
 import { Box } from "./box";
 
-export const Bloc = styled(Box)(
+const Bloc = styled(Box)(
   compose(
     color,
     background,
