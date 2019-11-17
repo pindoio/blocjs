@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.0.12
+
+### Patch Changes
+
+- b5d2fa0: Added Hide component to support hidding items at certain breakpoints
+
 ## 0.0.11
 
 ### Patch Changes
