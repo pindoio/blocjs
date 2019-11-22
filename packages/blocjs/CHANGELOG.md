@@ -1,5 +1,16 @@
 # @pindoio/blocjs
 
+## 0.1.0
+
+### Minor Changes
+
+- 8609339: first minor release
+
+### Patch Changes
+
+- 903aff1: Fix: Deployment procedure
+- b5d2fa0: Added Hide component to support hidding items at certain breakpoints
+
 ## 0.0.11
 
 ### Patch Changes
