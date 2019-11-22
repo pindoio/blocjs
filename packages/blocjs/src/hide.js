@@ -1,8 +1,15 @@
 import { system } from "styled-system";
+import { styled } from "styled-components";
 
-const hide = system({
-  property: "display",
-  transform: (value, scale) => (value ? "none" : "block")
+import { Box } from "./box";
+
+const hidden = system({
+  hidden: {
+    property: "display",
+    transform: n => (n ? "none" : "block")
+  }
 });
 
-export default hide;
+const Hide = styled(Box)(hidden);
+
+export default Hide;
