@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.1.1
+
+### Patch Changes
+
+- 07ffcb0: Updated the entrypoint to point to the source including Hide component
+
 ## 0.1.0
 
 ### Minor Changes
