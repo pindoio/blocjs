@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import propTypes from "@styled-system/prop-types";
 import { space, layout, flexbox, compose } from "styled-system";
 
 const Box = styled("div")(
@@ -9,15 +8,8 @@ const Box = styled("div")(
   compose(
     space,
     layout,
-    flexbox,
-    hide
+    flexbox
   )
 );
-
-Box.propTypes = {
-  ...propTypes.space,
-  ...propTypes.layout,
-  ...propTypes.flexbox
-};
 
 export default Box;

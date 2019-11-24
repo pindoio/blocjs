@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import propTypes from "@styled-system/prop-types";
 import { color, background, border, shadow, compose } from "styled-system";
 
-import { Box } from "./box";
+import Box from "./box";
 
 const Bloc = styled(Box)(
   compose(
@@ -12,12 +11,5 @@ const Bloc = styled(Box)(
     shadow
   )
 );
-
-Box.propTypes = {
-  ...propTypes.color,
-  ...propTypes.background,
-  ...propTypes.border,
-  ...propTypes.shadow
-};
 
 export default Bloc;
