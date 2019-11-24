@@ -1,6 +1,6 @@
 {
   "name": "@pindoio/blocjs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Building blocks for a functional Reactjs UI built with styled-system",
   "main": "src/index.js",
   "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",

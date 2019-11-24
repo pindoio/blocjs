@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.1.2
+
+### Patch Changes
+
+- 1d0f4a9: Solved issue with Box and Hide components
+
 ## 0.1.1
 
 ### Patch Changes
