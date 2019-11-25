@@ -1,7 +1,7 @@
 {
   "name": "@pindoio/blocjs",
   "version": "0.1.4",
-  "description": "Building blocks for a functional Reactjs UI built with styled-system",
+  "description": "Blocjs is a minimal structural set of components built for React using Styled System",
   "main": "src/index.js",
   "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
   "repository": {
@@ -14,8 +14,8 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-    "styled-components": "^4.4.0",
-    "styled-system": "^5.1.2"
+    "styled-components": "^4.4.1",
+    "styled-system": "^5.1.3"
   },
   "peerDependencies": {
     "react": "^16.12.0",

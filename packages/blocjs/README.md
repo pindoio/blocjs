@@ -1,8 +1,8 @@
 # Bloc
-Building blocks for a functional Reactjs UI built with styled-system
+Blocjs is a minimal structural set of components built for React using Styled System
 
 ## Installation
-To install the latest version without the need to remember the version number
+You can install blocjs with a specific version on get the latest as shown below
 ```sh
 yarn add @pindoio/blocjs
 ```
@@ -11,22 +11,21 @@ or
 npm i @pindoio/blocjs
 ```
 
-## Box
-Box is the building block for the entire design system.
-Box is designed to not have visual properties, it represents the structural component
 
 ## Flex
-Flex components inherits from Box with extra flexbox container related properties.
-Both Box and Flex purpose is to create structure and shouldn't be used to visually be representative.
-Their properties intent is instead to influence contained elements.
+Flex purpose is to create a non-visual structural component
+which influence its children behaviour using flexbox specifications.
 
-## Border
-Similar to box border is the component designed to be visual representative.
-On top of structural capacity border component have visual properties and intend to use for
-visual purposes instead.
+## Box
+Normally box can be used everywhere. But works better within the Flex component
+Similary to Flex, Box is non-visual structural component.
 
 ## Hide
-Hide is a component which can hide its children on specific breakpointsxk
+Hide has alot in common with box with extra ability to be hidden on certain breakpoints. 
+
+## Border
+Border is the only visual component.
+Similar to box it have properties to show its border and background.
 
 # Use cases
 Coming soon
