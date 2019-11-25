@@ -4,7 +4,7 @@ import { system } from "styled-system";
 import Box from "./box";
 
 const hidden = system({
-  hidden: {
+  onBreakpoints: {
     property: "display",
     transform: n => (n ? "none" : "block")
   }
