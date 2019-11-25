@@ -4,11 +4,11 @@ Building blocks for a functional Reactjs UI built with styled-system
 ## Installation
 To install the latest version without the need to remember the version number
 ```sh
-yarn add @pindoio/blocjs@next
+yarn add @pindoio/blocjs
 ```
 or
 ```sh
-npm install @pindoio/blocjs@next
+npm i @pindoio/blocjs
 ```
 
 ## Box
@@ -25,8 +25,8 @@ Similar to box border is the component designed to be visual representative.
 On top of structural capacity border component have visual properties and intend to use for
 visual purposes instead.
 
-## Text
-Text component inherits from Box with text related properties
+## Hide
+Hide is a component which can hide its children on specific breakpointsxk
 
 # Use cases
 Coming soon

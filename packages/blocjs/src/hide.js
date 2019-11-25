@@ -1,7 +1,7 @@
 import { system } from "styled-system";
 import { styled } from "styled-components";
 
-import { Box } from "./box";
+import Box from "./box";
 
 const hidden = system({
   hidden: {
