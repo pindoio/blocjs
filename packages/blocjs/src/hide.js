@@ -1,5 +1,5 @@
+import styled from "styled-components";
 import { system } from "styled-system";
-import { styled } from "styled-components";
 
 import Box from "./box";
 
