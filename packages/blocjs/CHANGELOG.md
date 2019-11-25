@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- a183dab: Solved the issue with hide component for importing box
+
+## 0.1.3
+
+### Patch Changes
+
 - dab1a42: Corrected the Hide component file on importing Box
 
 ## 0.1.2
