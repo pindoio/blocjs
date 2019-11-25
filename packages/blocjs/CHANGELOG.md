@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.1.4
+
+### Patch Changes
+
+- 17133b6: Corrected bad import in hide component
+
 ## 0.1.3
 
 ### Patch Changes
