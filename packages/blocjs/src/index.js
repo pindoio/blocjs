@@ -1,6 +1,4 @@
-import Box from "./box";
-import Hide from "./hide";
-import Flex from "./flex";
-import Bloc from "./bloc";
-
-export { Box, Hide, Flex, Bloc };
+export { default as Box } from "./box";
+export { default as Hide } from "./hide";
+export { default as Flex } from "./flex";
+export { default as Bloc } from "./bloc";
