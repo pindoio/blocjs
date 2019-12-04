@@ -1,18 +1,15 @@
 {
   "name": "@pindoio/blocjs",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Blocjs is a minimal structural set of components built for React using Styled System",
-    "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
+  "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pindoio/blocjs.git"
   },
   "license": "MIT",
-
   "main": "lib/index.js",
-  "files": [
-    "/lib"
-  ],
+  "files": ["/lib"],
   "scripts": {
     "build": "rollup -c"
   },

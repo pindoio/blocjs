@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.1.6
+
+### Patch Changes
+
+- ca28197: Fixed the issue with compatibility using commonjs format
+
 ## 0.1.5
 
 ### Patch Changes
