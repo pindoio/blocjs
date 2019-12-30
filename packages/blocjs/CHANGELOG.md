@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.1.7
+
+### Patch Changes
+
+- 51814fd: Updated Box and Bloc to include properties for positioning and typography respectively
+
 ## 0.1.6
 
 ### Patch Changes
