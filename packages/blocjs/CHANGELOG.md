@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.1.9
+
+### Patch Changes
+
+- 2ecb8c3: All component have the ability to be hiddable instead of dedicated Hide component
+
 ## 0.1.8
 
 ### Patch Changes
