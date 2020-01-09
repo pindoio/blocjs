@@ -3,13 +3,16 @@ import { system } from "styled-system";
 
 import Box from "./box";
 
-const hidden = system({
-  onBreakpoints: {
+const config = {
+  breakpoints: {
     property: "display",
     transform: n => (n ? "none" : "block")
   }
-});
+};
 
-const Hide = styled(Box)(hidden);
+config.bp = config.breakpoints;
 
+const breakpoints = system(config);
+
+const Hide = styled(Box)(breakpoints);
 export default Hide;
