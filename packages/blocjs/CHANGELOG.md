@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.1.8
+
+### Patch Changes
+
+- ce137e7: Updated the hide component to solve issue while testing
+
 ## 0.1.7
 
 ### Patch Changes
