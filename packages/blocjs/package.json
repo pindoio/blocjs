@@ -1,6 +1,6 @@
 {
   "name": "@pindoio/blocjs",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Blocjs is a minimal structural set of components built for React using Styled System",
   "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
   "repository": {
