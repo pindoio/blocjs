@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.1.10
+
+### Patch Changes
+
+- d79ea9e: Removed hide and updated box to include all hide properties within all dependent components
+
 ## 0.1.9
 
 ### Patch Changes
