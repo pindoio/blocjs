@@ -1,7 +1,12 @@
 import styled from "styled-components";
-import { space, layout, position, flexbox, compose } from "styled-system";
-
-import hide from "./hide";
+import {
+  space,
+  layout,
+  position,
+  flexbox,
+  compose,
+  system
+} from "styled-system";
 
 const Box = styled("div")(
   {
@@ -11,9 +16,14 @@ const Box = styled("div")(
     space,
     layout,
     position,
-    flexbox,
-    hide
-  )
+    flexbox
+  ),
+  system({
+    hide: {
+      property: "display",
+      transform: n => (n ? "none" : "block")
+    }
+  })
 );
 
 export default Box;
