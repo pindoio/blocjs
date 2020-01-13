@@ -18,6 +18,8 @@ jobs:
           node-version: '12.x'
       - name: Install dependencies
         run: yarn
+      - name: Build package before release
+        run: yarn workspace @pindoio/blocjs build
       - name: Create release pull-request
         uses: changesets/action@master
         env:
