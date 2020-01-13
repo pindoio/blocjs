@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.1.12
+
+### Patch Changes
+
+- e159a3a: Fix issue by creating production build
+
 ## 0.1.11
 
 ### Patch Changes
