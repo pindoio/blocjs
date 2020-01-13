@@ -1,5 +1,11 @@
 # @pindoio/blocjs
 
+## 0.1.11
+
+### Patch Changes
+
+- ffc0bb0: Solved the issue of building the package in github release workflow
+
 ## 0.1.10
 
 ### Patch Changes
