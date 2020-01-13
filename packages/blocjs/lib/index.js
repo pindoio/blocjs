@@ -9,23 +9,19 @@ var styledSystem = require('styled-system');
 
 const Box = styled("div")({
   boxSizing: "border-box"
-}, styledSystem.compose(styledSystem.space, styledSystem.layout, styledSystem.flexbox));
-
-const hidden = styledSystem.system({
-  onBreakpoints: {
+}, styledSystem.compose(styledSystem.space, styledSystem.layout, styledSystem.position, styledSystem.flexbox), styledSystem.system({
+  hide: {
     property: "display",
     transform: n => n ? "none" : "block"
   }
-});
-const Hide = styled(Box)(hidden);
+}));
 
 const Flex = styled(Box)({
   display: "flex"
 });
 
-const Bloc = styled(Box)(styledSystem.compose(styledSystem.color, styledSystem.background, styledSystem.border, styledSystem.shadow));
+const Bloc = styled(Box)(styledSystem.compose(styledSystem.color, styledSystem.background, styledSystem.typography, styledSystem.border, styledSystem.shadow));
 
 exports.Bloc = Bloc;
 exports.Box = Box;
 exports.Flex = Flex;
-exports.Hide = Hide;
