@@ -1,8 +1,9 @@
 {
-  "registry": "https://npm.pkg.github.com/",
-  "npmClient": "npm",
-  "version": "independent",
+  "create": {
+    "license": "MIT"
+  },
   "packages": [
     "packages/*"
-  ]
+  ],
+  "npmClient": "yarn"
 }

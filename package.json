@@ -1,29 +1,43 @@
 {
-  "version": "0.0.1",
-  "license": "MIT",
-  "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
-  "name": "blocjs-packages",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
-    "@babel/core": "^7.8.0",
-    "@babel/preset-env": "^7.8.2",
-    "@babel/preset-react": "^7.8.0",
-    "@changesets/cli": "^2.1.2",
-    "lerna": "^3.18.1",
-    "rollup": "^1.27.8",
-    "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-peer-deps-external": "^2.2.0",
-    "rollup-plugin-terser": "^5.1.2",
-    "rollup-plugin-uglify": "^6.0.3"
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "lerna": "^3.20.2",
+    "semantic-release": "^17.0.8",
+    "jest": "^26.0.1"
+  },
+  "jest": {
+    "testMatch": [
+      "**/packages/**/test/*.js"
+    ],
+    "collectCoverageFrom": [
+      "**/packages/**/src/*.js"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text",
+      "html"
+    ]
   },
   "scripts": {
-    "test": "echo 1",
-    "changeset": "changeset",
-    "auto-publish": "lerna publish from-package -y"
+    "test": "jest",
+    "prepare": "yarn build:cjs && yarn build:esm",
+    "build:cjs": "NODE_ENV=cjs lerna exec -- babel src -d dist --root-mode upward",
+    "build:esm": "NODE_ENV=esm lerna exec -- babel src -o dist/index.esm.js --root-mode upward",
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish",
+    "auto-publish": "lerna publish from-package -y",
+    "clean": "lerna exec -- rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pindoio/blocjs.git"
   }
 }
