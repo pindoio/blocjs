@@ -28,12 +28,7 @@
   },
   "scripts": {
     "test": "jest",
-    "prepare": "yarn build:cjs && yarn build:esm",
-    "build:cjs": "NODE_ENV=cjs lerna exec -- babel src -d dist --root-mode upward",
-    "build:esm": "NODE_ENV=esm lerna exec -- babel src -o dist/index.esm.js --root-mode upward",
     "bootstrap": "lerna bootstrap",
-    "publish": "lerna publish",
-    "auto-publish": "lerna publish from-package -y",
     "clean": "lerna exec -- rm -rf dist"
   },
   "repository": {
