@@ -1,9 +1,0 @@
-{
-  "create": {
-    "license": "MIT"
-  },
-  "packages": [
-    "packages/*"
-  ],
-  "npmClient": "yarn"
-}
