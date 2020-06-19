@@ -1,24 +1,37 @@
 {
-  "name": "@pindoio/blocjs",
+  "name": "blocjs",
   "version": "0.0.0-development",
-  "description": "Blocjs is a minimal structural set of components built for React using Styled System",
-  "author": "Eugene Rwagasore <eugene@pindo.io> (@erwagasore)",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pindoio/blocjs.git"
-  },
+  "description": "Blocjs is a minimal structural set of components built with Styled System",
+  "author": "Team Pindo <team@pindo.io>",
   "license": "MIT",
-  "main": "lib/index.js",
-  "files": ["/lib"],
+  "main": "src/index.js",
   "scripts": {
-    "build": "rollup -c"
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "styled-components": "^5.1.1",
     "@styled-system/css": "^5.1.5",
     "styled-system": "^5.1.5"
   },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^1.7.2",
+    "react-is": "^16.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "peerDependencies": {
-    "react": "^16.13.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pindoio/blocjs.git"
   }
 }
