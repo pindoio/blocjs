@@ -1,0 +1,16 @@
+name: Tests
+
+on:
+  push:
+    branches-ignore:
+      - 'master'
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    container: 'node:12-alpine'
+    steps:
+      - uses: actions/checkout@v1
+      - run: yarn install --frozen-lockfile
+      - run: yarn test
