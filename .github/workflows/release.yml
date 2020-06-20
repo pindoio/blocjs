@@ -14,7 +14,7 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn test
       - run: yarn workspace blocjs build
-      - run: npx semantic-release -e semantic-release-monorepo
+      - run: yarn workspace blocjs semantic-release -e semantic-release-monorepo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
