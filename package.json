@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "blocjs-workspace",
   "workspaces": [
     "packages/*"
   ],
