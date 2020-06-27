@@ -5,10 +5,6 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@testing-library/react": "10.3.0",
-    "jest": "^26.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
     "semantic-release": "^17.0.8",
     "semantic-release-monorepo": "^7.0.2"
   },

@@ -10,7 +10,6 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
-    "styled-components": "^5.1.1",
     "@styled-system/css": "^5.1.5",
     "styled-system": "^5.1.5"
   },
@@ -22,13 +21,11 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "webpack-node-externals": "^1.7.2",
-    "react-is": "^16.13.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "styled-components": "^5.1.1"
   },
   "peerDependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "styled-components": "^5.1.1"
   },
     "repository": {
     "type": "git",
