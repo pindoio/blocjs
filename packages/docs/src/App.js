@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { ThemeProvider } from "styled-components";
+import { Bloc } from "blocjs";
 
-function App() {
+import theme from "./theme";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Bloc color="primaryDark">Bloc</Bloc>
+      <Bloc color="primary">BlocJS</Bloc>
+      <Bloc color="primaryLight">BlocJS Library</Bloc>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;

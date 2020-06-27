@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  docs:
+    tty: true
+    restart: always
+    stdin_open: true
+    container_name: blocjs_docs
+    command: yarn start
+    env_file: ./packages/docs/.env
+    build:
+      context: .
+      dockerfile: ./packages/docs/Dockerfile
+    volumes:
+      - './packages/docs:/home/blocjs/packages/docs'
+    ports:
+      - 2000:2000
