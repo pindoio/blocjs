@@ -21,7 +21,7 @@ const Box = styled("div")(
   system({
     hide: {
       property: "display",
-      transform: n => (n ? "none" : "block")
+      transform: n => (n ? "none" : "initial")
     }
   })
 );
