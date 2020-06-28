@@ -1,32 +1,32 @@
 const colors = {
-  primary: "#2757B6",
-  primaryDark: "#0D285C",
-  primaryLight: "#89ACF0",
+  primary: "#FF3049",
+  primaryDark: "#CF1229",
+  primaryLight: "#FF7888",
   primaries: [
-    "#0D285C",
-    "#183D85",
-    "#2757B6",
-    "#628EE4",
-    "#89ACF0",
-    "#AECAFF",
-    "#CBDDFF",
-    "#E8F0FF"
+    "#CF1229",
+    "#E5223A",
+    "#FF3049",
+    "#FF5E71",
+    "#FF7888",
+    "#FF96A3",
+    "#FFB9C1",
+    "#FFDCE0"
   ],
-  accent: "#38CACA",
-  accentDark: "#087C7C",
-  accentLight: "#73F3F3",
+  accent: "#16C1AD",
+  accentDark: "#088C7D",
+  accentLight: "#8EF3E7",
   accents: [
-    "#087C7C",
-    "#24AFAF",
-    "#38CACA",
-    "#55E2E2",
-    "#73F3F3",
-    "#90FBFB",
-    "#AFFFFF",
-    "#E8FFFF"
+    "#088C7D",
+    "#0BAF9C",
+    "#16C1AD",
+    "#57E0D0",
+    "#8EF3E7",
+    "#BDFBF3",
+    "#E4FFFC",
+    "#F6FFFE"
   ],
-  surface: "#F9FFFF",
-  surfaces: ["#FFFFFF", "#F9FFFF", "#5D5E6E", "#EB5757"]
+  surface: "#FFF9F9",
+  surfaces: ["#FFFFFF", "#FFF9F9", "#3E484D", "#EC0000"]
 };
 colors.lightAccent = colors["accents"][7];
 
@@ -42,7 +42,7 @@ shadows.medium = shadows[2];
 shadows.large = shadows[3];
 
 const fonts = {
-  sans: "'Public Sans', sans-serif",
+  sans: "'Space Grotesk', sans-serif",
   mono: "Iosevka, Menlo, monospace"
 };
 
