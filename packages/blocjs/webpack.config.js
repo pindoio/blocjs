@@ -17,5 +17,9 @@ module.exports = {
     filename: "bundle.js",
     libraryTarget: "commonjs2",
     path: path.resolve(__dirname, "./dist")
-  }
+  },
+  resolve: {
+    extensions: [".js"]
+  },
+  mode: "production"
 };
