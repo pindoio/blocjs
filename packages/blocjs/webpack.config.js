@@ -4,7 +4,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /(\.jsx|\.js)$/,
         exclude: /(node_modules)/,
         use: {
           loader: "babel-loader"
@@ -12,14 +12,18 @@ module.exports = {
       }
     ]
   },
+  target: "web",
+  mode: "production",
   entry: "./src/index.js",
   output: {
-    filename: "bundle.js",
-    libraryTarget: "commonjs2",
-    path: path.resolve(__dirname, "./dist")
+    path: path.resolve(__dirname, "./dist"),
+    filename: "blocjs.js",
+    library: "Bloc",
+    libraryTarget: "umd",
+    globalObject: "typeof self !== 'undefined' ? self : this",
+    umdNamedDefine: true
   },
   resolve: {
     extensions: [".js"]
-  },
-  mode: "production"
+  }
 };

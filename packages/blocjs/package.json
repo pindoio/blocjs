@@ -5,6 +5,9 @@
   "author": "Team Pindo <team@pindo.io>",
   "license": "MIT",
   "main": "src/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "develop": "webpack --mode development --watch",
     "build": "webpack --mode production"
